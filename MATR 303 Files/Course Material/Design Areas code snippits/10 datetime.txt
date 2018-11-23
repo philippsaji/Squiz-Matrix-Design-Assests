@@ -1,0 +1,6 @@
+
+Page last updated:
+<MySource_AREA id_name="page_modified" design_area="datetime">
+    <MySource_SET name="format"   value="l d F Y H:i" />
+    <MySource_SET name="datetime" value="updated" />
+</MySource_AREA>

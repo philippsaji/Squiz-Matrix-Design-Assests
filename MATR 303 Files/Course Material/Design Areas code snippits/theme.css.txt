@@ -1,0 +1,4 @@
+#top-img img { 
+float: right;
+border: blue 1px dashed;
+}

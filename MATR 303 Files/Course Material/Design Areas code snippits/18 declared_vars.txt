@@ -1,0 +1,8 @@
+<MySource_AREA id_name="sec_image" design_area="declared_vars" print="no">
+    <MySource_DECLARE name="promo_image" value="main_image" type="text" description="Section images in banner" />
+</MySource_AREA>
+
+
+
+
+<body id="<MySource_PRINT id_name="sec_image" var="promo_image" />">

@@ -1,0 +1,14 @@
+<MySource_AREA id_name="Main_navigation" design_area="menu_normal">
+
+        <MySource_SET name="level" value="top"/>  
+
+            <ul>
+                <MySource_ASSET>
+                    <li>
+                            <MySource_PRINT var="asset_name_linked"/>
+                    </li>
+                </MySource_ASSET>
+            </ul>
+
+</MySource_AREA>
+

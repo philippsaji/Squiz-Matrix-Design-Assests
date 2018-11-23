@@ -1,0 +1,122 @@
+BODY
+
+<MySource_AREA id_name="body" design_area="body" />
+
+CONSTANT BUTTON (customise)
+
+<MySource_AREA id_name="privacy_policy" design_area="constant_button">
+  <a class="button" <MySource_PRINT var="href" />>Privacy Policy </a>
+</MySource_AREA>
+
+<MySource_AREA id_name="copyright" design_area="constant_button">
+  <a class="button" <MySource_PRINT var="href" />>Copyright </a>
+</MySource_AREA>
+
+NESTED CONTENT (customise)
+
+<MySource_AREA id_name="whats_new" design_area="nest_content">
+	<MySource_SET name="type_codes"	value="page file" />
+</MySource_AREA>
+
+METADATA
+
+<MySource_AREA id_name="metadata" design_area="metadata" />
+
+DATETIME
+
+<MySource_AREA id_name="page_modified" design_area="datetime">
+	<MySource_SET name="format"   value="F j, Y, g:i a" />
+	<MySource_SET name="datetime" value="updated" />
+</MySource_AREA>
+
+
+ASSET LINEAGE
+
+<MySource_AREA id_name="page_lineage" design_area="asset_lineage">
+    <MySource_SET name="levels_to_print"          value="0" />
+    <MySource_SET name="prefix_with_home_link"    value="true" />
+    <MySource_SET name="suffix_with_current_link" value="true" />
+    <MySource_SET name="prefix_with_divider"      value="true" />
+    <MySource_SET name="suffix_with_divider"      value="false" />
+
+    <MySource_ASSET>
+        <a href="<MySource_PRINT var='asset_link' />">
+             <MySource_PRINT var='asset_short_name' />
+        </a>
+    </MySource_ASSET>
+
+    <MySource_DIVIDER>
+        &nbsp;&gt;&nbsp;
+    </MySource_DIVIDER>
+</MySource_AREA>
+
+
+SEARCHBOX (customise)
+
+<MySource_AREA id_name="search_box" design_area="searchbox">
+   <MySource_PRINT var="form_start" />
+   <MySource_PRINT var="box" /> 
+   <MySource_PRINT var="submit" /> 
+   <MySource_PRINT var="form_end" />
+</MySource_AREA>
+</MySource_AREA>
+
+LOGIN FORM
+
+<MySource_AREA id_name="login_form" design_area="login_form">
+  <MySource_PRINT var="system_messages" /><br>
+  <MySource_PRINT var="login_heading" /><br>
+  
+   <MySource_LOGIN_SECTION>
+    <MySource_SET name="give_username_focus" value="true" />
+    <MySource_SET name="forward_www_vars"    value="true" />
+    
+    <MySource_PRINT var="form_open" />
+    Currently Logged in as: <MySource_PRINT id_name="__global__" var="current_user" default="[Not Logged In]" attr="username" />
+    <br><br>
+    <MySource_PRINT var="login_message" />
+    Username: <MySource_PRINT var="username_box" size="10" class="sq-data" /><br>
+    Password: <MySource_PRINT var="password_box" size="10" class="sq-data" /><br>
+    <MySource_PRINT var="submit_button" value="Login -&gt;" class="sq-data" /><br>
+    <MySource_PRINT var="form_close" />
+
+  </MySource_LOGIN_SECTION>
+
+
+  <MySource_LOGOUT_SECTION>
+    <MySource_PRINT var="form_open" />
+    Currently Logged in as : <MySource_PRINT id_name="__global__" var="current_user" default="[Not Logged In]" attr="username" />
+    <br><br>
+    <MySource_PRINT var="submit_button" value="Logout" class="sq-backend-data" />
+    <MySource_PRINT var="form_close" />
+  </MySource_LOGOUT_SECTION>
+</MySource_AREA>
+
+MENU NORMAL
+
+<MySource_AREA id_name="site_nav" design_area="menu_normal">
+            <MySource_SET name="level" value="top" />
+            <MySource_ASSET>
+            <li><a href="<MySource_PRINT var='asset_link' />" title="<MySource_PRINT var="asset_short_name" />"><span><MySource_PRINT var="asset_short_name" /></span></a></li>
+            </MySource_ASSET>
+        </MySource_AREA>
+
+SHOW IF
+
+<MySource_AREA id_name="write_access" design_area="show_if" print="no">
+    <MySource_SET name="condition" value="write_access" />
+    <MySource_THEN> 
+        <a href="<MySource_PRINT id_name="__global__" var="asset_link" />/_edit" >
+        <img src="mysource_files/edit_page.png" alt="Edit this page link">
+        </a>
+</MySource_THEN>
+</MySource_AREA>
+<MySource_AREA id_name="simple_edit" design_area="show_if">
+    <MySource_SET name="condition" value="simple_edit_mode" />
+    <MySource_ELSE> 
+        <MySource_PRINT id_name="write_access" />
+</MySource_ELSE>
+</MySource_AREA>
+
+
+

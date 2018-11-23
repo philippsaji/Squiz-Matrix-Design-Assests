@@ -1,0 +1,17 @@
+
+<MySource_AREA id_name="copyright" design_area="constant_button">
+  <a class="button" 
+      <MySource_PRINT var="href" />> Copyright &copy; Squiz Pty Ltd.
+  </a>
+</MySource_AREA>
+
+<span class="right">
+<MySource_AREA id_name="privacy_policy" design_area="constant_button">
+    <a class="button" 
+        <MySource_PRINT var="href" />> Powered by Squiz Matrix    
+    </a>
+</MySource_AREA>
+</span>
+
+
+

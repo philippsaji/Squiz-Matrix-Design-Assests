@@ -1,0 +1,23 @@
+#promo-wrapper {
+    background: url(mysource_files/promo_bg.jpg) repeat-x top left;
+    height: 170px;
+    z-index: 10;
+}
+
+#promo-wrapper .content {
+    width: 980px;
+    height: 170px;
+    margin: 0 auto;
+    background: url(mysource_files/content_page_top.gif) left bottom no-repeat;
+}
+
+#promo-quote {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+#promo-figures {
+    position: absolute;
+    right: 10px;
+    top: 93px;
+}

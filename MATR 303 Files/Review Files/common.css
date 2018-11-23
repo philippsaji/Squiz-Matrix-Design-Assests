@@ -1,0 +1,253 @@
+/**
+ * Defines styles that apply to each page within the design.
+ *
+ * @author scampbell
+ */
+
+
+/* Layout etc */
+
+html,
+body { height: 100%; }
+
+body {
+    margin:  0;
+    padding: 0;
+    font-family: "Arial", "Helvetica", sans-serif;
+    font-size: 80%;
+    color: #333;
+    background: url(mysource_files/body_bg.gif);
+}
+    
+#wrapper {
+    background-color: white;
+    width: 700px;
+    margin: 0 auto;
+    min-height: 100%;
+    position: relative;    /* to allow absolute positioning of the #bottom grey bar */
+}
+
+/* we'll just sneak this one IE/Win hack in \*/
+* html #wrapper { height: 100%; }
+/* resume parsing for IE/Mac */
+
+#top,
+#bottom a { display: none; }
+
+
+/* General */
+
+a {
+    color: #736F70;
+    text-decoration: underline;
+}
+
+a:hover { color: black; }
+
+h1 { font-size: 1.6em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.4em; }
+h4 { font-size: 1.3em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1.1em; }
+
+.sm { font-size: 0.8em; }
+
+.nav,
+.nav li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+/* Site-wide header */
+
+#site-header {
+    background-color: #736F70;
+    height: 60px;
+}
+
+#site-header h1 {
+    float: left;
+    margin: 0;
+    width: 130px;
+    height: 60px;
+    background-position: 10px 48%;
+    background: url(mysource_files/header_logo.gif) no-repeat;
+}
+
+#site-header h1 span { display: none; }
+
+#site-header .nav    { float: right; }
+#site-header .nav li { float: left;  }
+
+#site-header .nav a {
+    display: block;
+    float: left;
+    height: 30px;
+    padding: 0px 0.6em 0 0.6em;
+    color: #E6E6E6;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+#site-header .nav a:hover {
+    background-color: #5F5E5C;
+}
+
+/* Page header */
+
+#page-header {
+    height: 216px;
+    margin: 10px 10px 0 10px;
+    background: url(mysource_files/header_bg_left.jpg) no-repeat left top;
+}
+
+#page-header h2 {
+    position: relative;
+    height: 216px;
+    margin: 0 0 0 269px;
+    padding: 0;
+    color: white;
+    text-transform: lowercase;
+    font-size: 0.9em;
+    font-weight: normal;
+    background: #C9D3CF url(mysource_files/header_bg_right.jpg) no-repeat right top;
+}
+
+#page-header h2 span {
+    position: absolute;
+    width: 295px;
+    left: 10px;
+    bottom: 8px;
+}
+
+
+/* Content region */
+
+#content-region {
+    margin: 10px 0 0 0;
+}
+
+#content-region li{
+   margin: 0 0 0 -21px;
+   padding: 0;
+   list-style: none;
+}
+
+/* Subnav */
+
+#content-region .nav {
+    float: left;
+    width: 140px;
+    background-position: 66% 99%;
+    background-repeat: no-repeat;
+        text-align: left;
+    font-size: 1.0em;
+        display: block;
+}
+
+#content-region .nav a {
+    text-decoration: none;
+    font-size: 1.0em;
+    color: black;
+        padding: 0 0 0 10px;
+        font-size: 90%;
+        display: block;
+        width: 140px;
+}
+
+#content-region .nav a:hover { 
+        color: #5F5E5C; 
+        font-color: $FFFFFF;
+        text-decoration: underline;
+        width: 140px;
+}
+
+#content-region .nav .subnav {
+    float: left;
+    padding: 0 0 0 10px;
+    background-position: 66% 99%;
+    background-repeat: no-repeat;
+    font-size: 1.0em;
+}
+
+/* Content */
+
+#content {
+    width: 400px;
+    margin-left: 150px;
+}
+
+.breaker {
+    clear: both;
+    padding: 1.5em 0 20px 0;
+        font-size: 0.8em;
+        text-align: right;
+}
+
+#bottom {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    background-color: #A9A9A9;
+}
+
+#datetime {
+          float: right;
+          font-size: 0.8em;
+}
+
+#right-column {
+              float: right;
+}
+
+#nested {
+        width: 115px;
+        padding: 5px;
+        font-size: 90%;
+        margin: 0 10px 10px 10px;
+        background: #cbc7a0;
+}
+
+#nested h1 {
+           font-size: 1.2em;
+}
+
+#nested ul {
+           margin: 0 0 0 1.5em;
+           padding: 0;
+}
+
+#search-box {
+            width: 115px;
+            padding: 5px;
+            font-size: 90%;
+            margin: 0 10px 10px 10px;
+            background: #cbc7a0;
+}
+
+#search-box h1 {
+               font-size: 1.2em;
+}
+
+#login-box {
+           width: 115px;
+           padding: 5px;
+           font-size: 90%;
+           margin: 0 10px 0 10px;
+           background: #cbc7a0;
+
+
+
+
+}
+
+
+#login-box h1 {
+              font-size: 1.2em;
+}

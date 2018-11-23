@@ -1,0 +1,5 @@
+<ul>
+	<li><a href="">Terms of Use</a> &nbsp; | &nbsp;</li>
+	<li><a href="">Privacy Policy</a> &nbsp; | &nbsp;</li>
+	<li><a href="">Site Map</a></li>
+</ul>

@@ -1,0 +1,27 @@
+ <MySource_AREA id_name="menu" design_area="menu_normal">
+<ul>
+            <MySource_SET name="level" value="top" />
+            <MySource_SET name="prefix_with_divider" value="true" />
+            <MySource_SET name="suffix_with_divider" value="true" />
+            <MySource_SET name="show_subs" value="always" />
+  
+             <MySource_ASSET>
+                 <li><a href="<MySource_PRINT var='asset_link' />">
+                 <MySource_PRINT var="asset_short_name" />
+                 </a>
+                 <MySource_SUB design_area="menu_normal">
+<ul>
+                   <MySource_ASSET>
+                     
+                      <li><a href="<MySource_PRINT var='asset_link' />">
+                         <MySource_PRINT var="asset_short_name" />
+                       </a></li>
+                     
+                   </MySource_ASSET>
+</ul>
+</li>
+                 </MySource_SUB>
+             </MySource_ASSET>
+             <MySource_DIVIDER> </MySource_DIVIDER>
+</ul>
+       </MySource_AREA>

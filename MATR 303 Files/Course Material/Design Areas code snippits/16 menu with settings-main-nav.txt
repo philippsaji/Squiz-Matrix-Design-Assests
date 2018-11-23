@@ -1,0 +1,26 @@
+<MySource_AREA id_name="Main_navigation" design_area="menu_normal">
+        <MySource_SET name="level" value="top"/>
+        <MySource_SET name="show_subs" value="always"/>
+        <MySource_SET name="settings.class.normal" value="" />
+        <MySource_SET name="settings.class.current" value=" class='current'" />
+        <MySource_SET name="settings.class.hierarchy" value=" class='current'" />
+        
+        <ul>
+            <MySource_ASSET>
+            <li<MySource_PRINT var="settings.class"/>>
+                    <MySource_PRINT var="asset_name_linked"/>
+                    
+                    <MySource_SUB design_area="menu_normal">
+                            <ul>
+                                    <MySource_ASSET>
+                                    <li>
+                                            <MySource_PRINT var="asset_name_linked"/>
+                                    </li>
+                                    </MySource_ASSET>
+                            </ul>
+                    </MySource_SUB>
+            </li>
+            </MySource_ASSET>
+        </ul>
+        
+</MySource_AREA>

@@ -1,0 +1,363 @@
+h1 {
+    color: #336699;
+    font-size: 2em;
+    letter-spacing: -1px;
+    margin: 0 0 0 0;
+}
+
+.related-content {
+    
+}
+
+#body-content #right-column h2 {
+    font-size: 1.2em;
+    margin: 0 0 0.5em 0;
+    padding: 3px;
+    border-bottom: 1px solid #FFFFFF;
+    color: #333;
+    background-color: #FEFBF3;
+    letter-spacing: 0;
+    font-weight: bold;
+}
+
+#body-content #right-column ul {
+    margin: 0;
+    padding: 0 0 0 1.25em;
+}
+
+#body-content #right-column li {
+    margin: 0.5em 0;
+}
+
+#body-content #right-column {
+    float: right;
+    width: 170px;
+    background-color: #FCF7E9;
+    font-size: 0.9em;
+    /*padding: 10px;*/
+    color: #997B44;
+    margin-left: 10px;
+}
+
+#body-content #right-column > div {
+    padding: 10px;
+}
+
+#body-content .scroll {
+    height: 150px;
+    overflow: auto;
+}
+
+#main-column {
+    width: 500px;
+    overflow: hidden;
+    float: left;
+}
+
+#promo-wrapper {
+    background: url(mysource_files/promo_inside_bg.jpg) repeat-x top left;
+    height: 99px;
+    z-index: 10;
+}
+
+#promo-wrapper .content {
+    width: 980px;
+    height: 99px;
+    margin: 0 auto;
+    background: url(mysource_files/content_page_top.gif) left bottom no-repeat;
+}
+
+#section-image {
+    position: absolute;
+    right: 10px;
+    top: 86px;
+}
+
+#body-content {
+    float: left;
+    display: inline;
+    width: 732px;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 1px solid #C5E2FF;
+}
+
+#body-content h2 {
+    margin-top: 1em;
+    padding: 0;
+}
+
+#body-content a, #body-content a:visited {
+    color: #993300;
+}
+
+table.datatable_small, table.datatable {
+    border-collapse: collapse;
+    margin-top: 1em;
+background-color: #FCF7E9;
+}
+
+table.datatable_small th, table.datatable_small td, table.datatable th, table.datatable td {
+    padding: 8px;
+    font-size: 0.9em;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+table.datatable_small th, table.datatable th {
+    background: #CB9E72 url(mysource_files/datatable_head_bg.jpg) top left repeat-x;
+    color: #555555;
+}
+
+table.datatable_small td, table.datatable td {
+    color: #666666;
+}
+
+table.datatable_small ul, table.datatable ul {
+    margin: 0;
+    padding: 0 0 0 1.25em;
+}
+
+#breadcrumb {
+    background: url(mysource_files/breadcrumb_bg.jpg) left top no-repeat;
+    height: 30px;
+    margin-left: 13px;
+    margin-bottom: 20px;
+    width: 953px;
+    font-size: 0.9em;
+    clear: both;
+}
+
+#breadcrumb a {
+    text-decoration: none;
+    color: #555555;
+    display: block;
+    float: left;
+    padding: 7px 12px 0 10px;
+    background: url(mysource_files/breadcrumb_divider.jpg) right top no-repeat;
+    height: 30px;
+}
+
+#breadcrumb div {
+    float: left;
+    padding: 7px 12px 0 10px;
+    display: inline;
+    font-weight: bold;
+}
+
+#section-nav {
+    width: 170px;
+    float: left;
+    margin-left: 20px;
+    clear: both;
+}
+
+#section-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#section-nav ul li {
+    display: block;
+    height: 1%;
+}
+
+#section-nav ul li a {
+    display: block;
+    padding: 6px 0;
+    font-weight: bold;
+    color: #336699;
+}
+
+#section-nav ul li.current a, #section-nav ul li.hierarchy a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#section-nav ul li.current li a, #section-nav ul li.hierarchy li a {
+    color: #336699;
+    text-decoration: underline;
+}
+
+#section-nav ul li ul li a {
+    font-weight: normal;
+    padding-left: 16px;
+}
+
+#section-nav ul li ul li.current a {
+    background: url(mysource_files/menu_bullet_arrow.gif) 0 10px no-repeat;
+    color: #000000;
+    text-decoration: none;
+}
+
+#body-content .latest-news-item p.date {
+    color: #336699;
+}
+
+#body-content .latest-news-item p {
+    margin: 0;
+    padding: 0;
+}
+
+
+.form-intro {
+    margin: 1em 0;
+    font-weight: bold;
+}
+
+.form-question {
+    padding: 1em 10px;
+    overflow: hidden;
+    border-bottom: 1px solid #FFFFFF;
+    background-color: #FCF7E9;
+}
+
+.form-question input, .form-question textarea {
+    border: 1px solid #EFD287;
+    padding: 4px;
+    font-size: 1em;
+}
+
+.form-question label {
+    display: block;
+    width: 12em;
+    float: left;
+}
+
+.form-submits {
+    margin-top: 1em;
+}
+
+#calendarTable table {
+    border-collapse: collapse;
+    padding: 6px;
+}
+
+#office-locations {
+    background-color: #FCF7E9;
+    font-size: 0.9em;
+    padding: 10px;
+    color: #997B44;
+    border: none;
+}
+
+#office-locations h2 {
+    font-size: 1.2em;
+    margin: 0 0 0.5em 0;
+    padding: 3px;
+    border-bottom: 1px solid #FFFFFF;
+    color: #333;
+    background-color: #FEFBF3;
+    letter-spacing: 0;
+    font-weight: bold;
+}
+
+#news-listing p {
+    margin: 0;
+    padding: 0;
+}
+   
+#news-listing .date {
+    color: #0099CC;
+    padding-top: 0.5em;
+}
+   
+#body-content h2 a {
+    color: #993300;
+    text-decoration: none;
+}
+
+/**** Start Case Studies ****/
+
+.case-study {
+    margin:0px 0px 20px 0px;
+    padding-bottom: 20px;
+    border-bottom:1px solid #dce6f1;
+    overflow:hidden;
+}
+
+.case-study img {
+    margin:0;
+    border:1px solid #EAF0F7;
+    padding:3px;
+}
+
+#content-main .case-study h2 {
+}
+
+#content-main .case-study h2 a {
+    text-decoration:none;
+}
+
+.case-study .link {
+   float:right;
+   overflow:hidden;
+}
+
+.case-study .pdf {
+    background: url(mysource_files/pdf-icon.gif) top left no-repeat;
+    padding:3px 0px 3px 20px;
+    font-size:90%;
+    margin-right:20px;
+}
+
+.case-study .read-more {
+    background: url(mysource_files/read-more-icon.gif) top left no-repeat;
+    padding:3px 0px 3px 20px;
+    font-size: 0.9em;
+}
+
+/**** End Case Studies ****/
+
+
+/**** Start Image Gallery Overrides ****/
+
+#gallery {
+   background-color: #FCF7E9;
+   width: auto;
+}
+
+#gallery ul img {
+    border: 5px solid #FFFFFF;
+    border-width: 5px 5px 20px;
+}
+
+#gallery ul a:hover img {
+    border: 5px solid #fff;
+    border-width: 5px 5px 20px;
+    color: #fff;
+}
+
+/**** End Image Gallery Overrides ****/
+
+/**** Listing ****/
+
+.listing-nav-text {
+    font-weight: bold;
+}
+
+/**** End Listing ****/
+
+
+/**** Search results ****/
+
+#body-content .search-result h2 {
+    font-size: 1.2em;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+#body-content .search-result p {
+    padding: 0;
+}
+
+#body-content .search-result .url, #body-content .search-result .date {
+    font-size: 0.9em;
+}
+
+#body-content .search-result .date {
+    color: #999999;
+}
+
+
+/**** End Search results ****/

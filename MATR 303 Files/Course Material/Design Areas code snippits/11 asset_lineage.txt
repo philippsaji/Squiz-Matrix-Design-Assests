@@ -1,0 +1,21 @@
+<a href="<MySource_PRINT id_name="__global__" var="site_link" full_url="true"/>">Site Home</a>
+
+<MySource_AREA id_name="Breadcrumb" design_area="asset_lineage">
+        <MySource_SET name="prefix_with_divider" value="false" />
+        <MySource_SET name="suffix_with_divider" value="false" />
+        <MySource_SET name="prefix_with_home_link" value="false" />
+        <MySource_SET name="suffix_with_current_link" value="false" />
+        <MySource_SET name="show_hidden_links" value="false" />
+                <MySource_ASSET>
+                        <span>
+                                <a href="<MySource_PRINT var="asset_link"/>">
+                                        <MySource_PRINT var="asset_short_name" />
+                                </a>
+                        </span>
+                </MySource_ASSET>
+        <MySource_DIVIDER></MySource_DIVIDER>
+</MySource_AREA>
+
+<div>
+        <MySource_PRINT var="asset_short_name" />
+</div>

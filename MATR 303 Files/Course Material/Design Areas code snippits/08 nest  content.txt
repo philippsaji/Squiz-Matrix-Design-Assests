@@ -1,0 +1,7 @@
+
+<MySource_AREA id_name="whats_new" design_area="nest_content">
+	<MySource_SET name="type_codes"	value="page file" />
+</MySource_AREA>
+
+
+<MySource_AREA id_name="footer" design_area="nest_content">

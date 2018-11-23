@@ -1,0 +1,6 @@
+<MySource_AREA id_name="search_box" design_area="searchbox">
+    <MySource_PRINT var="form_start" />
+    Search: <MySource_PRINT var="box" />
+    <MySource_PRINT var="submit" />
+    <MySource_PRINT var="form_end" />
+</MySource_AREA>

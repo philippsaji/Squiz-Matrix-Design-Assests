@@ -1,0 +1,8 @@
+
+body#home #promo-wrapper .content{
+background: url('mysource_files/promo_figures.png') no-repeat bottom right;
+}
+
+body#matrix #promo-wrapper .content{
+background: url('mysource_files/squiz_matrix.png') no-repeat bottom right;
+}

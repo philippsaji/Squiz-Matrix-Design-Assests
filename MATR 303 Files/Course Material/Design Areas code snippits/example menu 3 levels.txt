@@ -1,0 +1,41 @@
+<MySource_AREA id_name="sub_nav" design_area="menu_normal">
+	<MySource_SET name="level" value="sub" />
+    	<MySource_SET name="show_subs" value="always" />
+    	<ul>
+    		<MySource_ASSET>
+   			<li><a href="<MySource_PRINT var='asset_link' />" title="<MySource_PRINT var="asset_short_name" />"> <MySource_PRINT var="asset_short_name" /></a>
+    			<MySource_SUB design_area="menu_normal">
+    				<ul>
+    					<MySource_ASSET>
+    						<li><a href="<MySource_PRINT var="asset_link" />"><MySource_PRINT var="asset_name"/></a>
+    							<MySource_SUB design_area="menu_normal">
+    								<MySource_SET name="settings.class.normal" value="" />
+    								<MySource_SET name="settings.class.current" value="class='current'" />
+    								<MySource_SET name="settings.class.hierarchy" value="class='hier'" />
+    									<ul>
+    										<MySource_ASSET>
+   												<li><a href="<MySource_PRINT var='asset_link' />" <MySource_PRINT var="settings.class" />> <MySource_PRINT var="asset_name" /></a>
+       												<MySource_SUB design_area="menu_normal">
+    													<MySource_SET name="settings.class.normal" value="" />
+    													<MySource_SET name="settings.class.current" value="class='current'" />
+    													<MySource_SET name="settings.class.hierarchy" value="class='hier'" />
+    														<ul>
+    															<MySource_ASSET>
+    																<li><a href="<MySource_PRINT var='asset_link' />" <MySource_PRINT var="settings.class" />> <MySource_PRINT var="asset_name" /></a></li>
+    															</MySource_ASSET>
+    														</ul>
+                                               </li>
+    							</MySource_SUB>
+    						</li>
+    					</MySource_ASSET>
+    				</ul>
+   				 	</li>
+    			</MySource_SUB>
+    		</li>
+    	</MySource_ASSET>
+   	</ul>
+ 	</li>
+ </MySource_SUB>
+</MySource_ASSET>
+</ul>
+</MySource_AREA> 

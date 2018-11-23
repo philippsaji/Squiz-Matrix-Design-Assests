@@ -1,0 +1,19 @@
+<MySource_AREA id_name="write_access" design_area="show_if" print="no">
+    <MySource_SET name="condition" value="write_access" />
+    
+    <MySource_THEN> 
+        <a href="<MySource_PRINT id_name="__global__" var="asset_link" />/_edit" >
+        <img src="mysource_files/edit_page.png" alt="Edit this page link">
+        </a>
+    </MySource_THEN>
+    
+</MySource_AREA>
+
+<MySource_AREA id_name="simple_edit" design_area="show_if">
+    <MySource_SET name="condition" value="simple_edit_mode" />
+
+    <MySource_ELSE> 
+        <MySource_PRINT id_name="write_access" />
+    </MySource_ELSE>
+
+</MySource_AREA>

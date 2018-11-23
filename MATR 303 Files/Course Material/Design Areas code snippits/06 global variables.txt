@@ -1,0 +1,4 @@
+<title>
+    <MySource_PRINT id_name="__global__" var="site_name" /> -
+    <MySource_PRINT id_name="__global__" var="asset_name" />
+</title>
